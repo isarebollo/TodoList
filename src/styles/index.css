@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-image: url(./../img/Fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+h1 {
+    color: deepskyblue;
+    font-size: 50px;
+}
+h6{
+
+    text-align: end;
+}
+
+.container-fluid{
+    margin-top: 20px;
+    margin-left: 550px;
+    text-align: end;
+    width: 600px;
+    height: 200px;
+}
+
+button {
+    background-color: white;
+    border-color: deepskyblue;
+    border-radius: 10px;
+}
+
+input {
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+#eliminar {
+    margin-left: 50px;
+    font-size: 15px;
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    /*aquí nuestro cSS para dispositivos móviles*/
+
+    body {
+      
+        background-image: url('./../img/Fondo-movil.png');  
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    h1{
+        color:saddlebrown;
+    }
+    button {
+        background-color: white;
+        border-color: saddlebrown;
+        border-radius: 10px;
+    }
+
+   
+
+}
