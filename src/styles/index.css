@@ -10,7 +10,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+
 }
 
 code {
@@ -19,20 +19,29 @@ code {
 }
 
 h1 {
+
     color: deepskyblue;
     font-size: 50px;
 }
-h6{
+
+h6 {
 
     text-align: end;
+    margin-right: 10px;
 }
 
-.container-fluid{
+.container-fluid {
     margin-top: 20px;
-    margin-left: 550px;
-    text-align: end;
+    margin-left: 10px;
+
     width: 600px;
     height: 200px;
+}
+
+#task {
+    text-align: end;
+    margin-top: 25px;
+
 }
 
 button {
@@ -42,7 +51,7 @@ button {
 }
 
 input {
-    margin-bottom: 50px;
+    margin: 15px;
     border-radius: 10px;
 }
 
@@ -58,21 +67,26 @@ input {
     /*aquí nuestro cSS para dispositivos móviles*/
 
     body {
-      
-        background-image: url('./../img/Fondo-movil.png');  
+
+        background-image: url('./../img/Fondo-movil.png');
         text-align: center;
         margin-top: 20px;
-        
+
     }
-    h1{
-        color:saddlebrown;
+
+    h1 {
+        color: saddlebrown;
     }
+
     button {
         background-color: white;
         border-color: saddlebrown;
         border-radius: 10px;
     }
 
-   
+    #task {
+        text-align: center;
+    }
+
 
 }

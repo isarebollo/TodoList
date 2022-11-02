@@ -14,7 +14,7 @@ const FormularioTareas = (props) => {
 		props.tarea(nombreTarea);
 	};
 	return (
-		<div id="input">
+		<div className="container" id="input">
 			<input
 				type="text"
 				placeholder="Tarea Aqui"

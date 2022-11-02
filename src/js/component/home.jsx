@@ -20,9 +20,11 @@ const Home = () => {
 	};
 
 	return (
-		<div className="container">
+		<div id="task" className="container">
 
 			<h1>Lista de Tareas</h1>
+
+
 			<FormularioTareas tarea={agregarTarea} />
 			{tareas.map((tarea, index) => {
 				return (
