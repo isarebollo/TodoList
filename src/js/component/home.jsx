@@ -10,14 +10,21 @@ const Home = () => {
 		const auxTarea = tareas.concat(nombreTarea);
 		setListaTareas(auxTarea);
 	};
-	const eliminarTarea = (index) => {
-		const auxTarea = tareas.filter((tarea, auxIndex) => {
-			if (index !== auxIndex) {
-				return tarea;
-			}
-		});
-		setListaTareas(auxTarea);
+	// const eliminarTarea = (index) => {
+	// 	const auxTarea = tareas.filter((tarea, auxIndex) => {
+	// 		if (index !== auxIndex) {
+	// 			return tarea;
+	// 		}
+	// 	});
+	// 	setListaTareas(auxTarea);
+	// };
+	const eliminarTarea = ( indexTareaEliminar) => {
+		const tareasFiltradas = tareas.filter((tarea, index) => 
+			index !== indexTareaEliminar
+		);
+		setListaTareas(tareasFiltradas);
 	};
+
 
 	return (
 		<div id="task" className="container">
